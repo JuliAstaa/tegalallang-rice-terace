@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --heading-font: "Poppins", serif;
+  --body-font: "Roboto", sans-serif;
+  --warna-premier: #ffffff;
+  --warna-sekunder: #40c9a2;
+  --warna-bg: #ffffff;
+  --warna-ornamen: #2e7d32;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+
+.logo-tegalalang {
+  font-family: var(--heading-font);
+}
+
+.rice-terace {
+  margin-top: -12px;
+}
+.line {
+  width: 24px;
+  height: 1px;
+}
+
+.hover-underline {
+  position: relative;
+}
+
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--warna-sekunder);
+  transition: width 0.3s, left 0.3s;
+  transform: translateX(-50%);
+}
+
+.hover-underline:hover::after {
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.logo > a {
+  color: var(--warna-premier);
+}
+
+.nav-item {
+  list-style: none;
+  color: var(--warna-premier);
+}
+
+.nav-item:hover {
+  color: var(--warna-sekunder);
+}
+
+.nav-link {
+  font-family: var(--heading-font);
+}
+
+.carousel-item {
+  aspect-ratio: 16 / 6;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.triple-line-start > .top-n-bot-line {
+  width: 40px;
+  height: 3px;
+  background-color: var(--warna-ornamen);
+}
+
+.triple-line-start > .mid-line {
+  width: 20px;
+  height: 3px;
+  background-color: var(--warna-ornamen);
+}
+
+.triple-line-end > .top-n-bot-line {
+  width: 40px;
+  height: 3px;
+  background-color: var(--warna-ornamen);
+}
+
+.triple-line-end > .mid-line {
+  width: 20px;
+  height: 3px;
+  background-color: var(--warna-ornamen);
+}
+
+.image-about-wrapper {
+  position: relative;
+}
+
+.image-about {
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  height: 400px;
+  margin-top: 8px;
+}
+
+.image-about img {
+  border-radius: 5px;
+}
+
+.image-about::after {
+  border-radius: 5px;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--warna-sekunder);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(0%, 0%);
+}
+
+.image-about-wrapper:hover .image-about {
+  transform: translate(-1%, -1%);
+}
+.image-about-wrapper:hover .image-about::after {
+  transform: translate(2%, 2%);
+}
+
+.paket-wisata-side-title {
+  background-color: var(--warna-sekunder);
+}
+
+.paket-wisata-side-title h2 {
+  font-family: var(--heading-font);
+  color: var(--warna-premier);
+}
+
+.paket-wisata-line {
+  width: 4px;
+  background-color: var(--warna-sekunder);
+}
+
+.paket-wisata-card {
+  cursor: pointer;
+}
+
+.paket-wisata-card img {
+  object-fit: cover;
+  object-position: top;
+  height: 200px;
+}
+
+.card-line {
+  height: 2px;
+  background-color: var(--warna-sekunder);
+}
+
+.booking-now {
+  height: 50px;
+  background-color: var(--warna-sekunder);
+  color: var(--warna-premier);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+  border: 2px solid var(--warna-sekunder);
+  transition: all ease 0.3s;
+}
+
+.booking-now:hover {
+  background-color: var(--warna-premier);
+  color: var(--warna-sekunder);
+  border: 2px solid var(--warna-sekunder);
+}
+
+.card-img-wisata {
+  overflow: hidden;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.card-img-wisata:hover {
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out;
+}
+
+.paket-wisata-img-lainnya {
+  object-fit: cover;
+  object-position: top;
+  height: 275px;
+  width: 100%;
+
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.paket-wisata-img-lainnya:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.galeri-line {
+  width: 50%;
+  height: 4px;
+  background-color: var(--warna-sekunder);
+}
+
+.galeri-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--warna-sekunder);
+}
+
+.galeri-image {
+  object-fit: cover;
+  object-position: top;
+  height: 300px;
+  width: 300px;
+  border-radius: 0px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.galeri-image-wrapper {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  border-radius: 0px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.galeri-image-wrapper:hover {
+  transform: scale(0.95);
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.galeri-image:hover {
+  transform: scale(1.1);
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.blend-image {
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+}
+
+.footer {
+  background-color: #1a1a1d;
+}
+
+.logo-tegalalang-footer {
+  color: var(--warna-sekunder);
+}
+
+.kontak-kami-line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--warna-sekunder);
+}

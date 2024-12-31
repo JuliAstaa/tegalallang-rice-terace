@@ -385,46 +385,150 @@
       <!-- end paket wisata -->
 
       <!-- Galeri -->
-      <div id="galeri" class="container mt-5">
-        <div class="gallery-title d-flex align-items-center gap-4">
-          <span class="d-block galeri-line"></span>
-          <span class="d-block galeri-circle"></span>
-          <h1>GALERI</h1>
-          <span class="d-block galeri-circle"></span>
-          <span class="d-block galeri-line"></span>
-        </div>
-        <div class="galeri-body">
-          <div class="galeri-body">
-            <div class="row">
-              <div class="col galeri-image-wrapper">
-                <img class="galeri-image" src="img/gallery-1.jpg" alt="" />
-              </div>
-              <div class="col galeri-image-wrapper">
-                <img class="galeri-image" src="img/gallery-2.jpg" alt="" />
-              </div>
-              <div class="col galeri-image-wrapper">
-                <img class="galeri-image" src="img/gallery-5.jpg" alt="" />
-              </div>
-              <div class="col galeri-image-wrapper">
-                <img class="galeri-image" src="img/gallery-4.jpeg" alt="" />
+      <div class="container-fluid p-0 mt-5">
+        <svg
+          id="wave"
+          style="transform: rotate(0deg); transition: 0.3s"
+          viewBox="0 0 1440 190"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(26, 26, 29, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(26, 26, 29, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,0L18.5,9.5C36.9,19,74,38,111,63.3C147.7,89,185,120,222,129.8C258.5,139,295,127,332,126.7C369.2,127,406,139,443,120.3C480,101,517,51,554,34.8C590.8,19,628,38,665,50.7C701.5,63,738,70,775,85.5C812.3,101,849,127,886,126.7C923.1,127,960,101,997,91.8C1033.8,82,1071,89,1108,104.5C1144.6,120,1182,146,1218,158.3C1255.4,171,1292,171,1329,152C1366.2,133,1403,95,1440,82.3C1476.9,70,1514,82,1551,95C1587.7,108,1625,120,1662,133C1698.5,146,1735,158,1772,161.5C1809.2,165,1846,158,1883,136.2C1920,114,1957,76,1994,50.7C2030.8,25,2068,13,2105,15.8C2141.5,19,2178,38,2215,66.5C2252.3,95,2289,133,2326,139.3C2363.1,146,2400,120,2437,91.8C2473.8,63,2511,32,2548,44.3C2584.6,57,2622,114,2640,142.5L2658.5,171L2658.5,190L2640,190C2621.5,190,2585,190,2548,190C2510.8,190,2474,190,2437,190C2400,190,2363,190,2326,190C2289.2,190,2252,190,2215,190C2178.5,190,2142,190,2105,190C2067.7,190,2031,190,1994,190C1956.9,190,1920,190,1883,190C1846.2,190,1809,190,1772,190C1735.4,190,1698,190,1662,190C1624.6,190,1588,190,1551,190C1513.8,190,1477,190,1440,190C1403.1,190,1366,190,1329,190C1292.3,190,1255,190,1218,190C1181.5,190,1145,190,1108,190C1070.8,190,1034,190,997,190C960,190,923,190,886,190C849.2,190,812,190,775,190C738.5,190,702,190,665,190C627.7,190,591,190,554,190C516.9,190,480,190,443,190C406.2,190,369,190,332,190C295.4,190,258,190,222,190C184.6,190,148,190,111,190C73.8,190,37,190,18,190L0,190Z"
+          ></path>
+        </svg>
+        <div
+          id="galeri"
+          class="container-fluid d-flex justify-content-center"
+          style="background-color: #1a1a1d"
+        >
+          <div class="container">
+            <div class="gallery-title d-flex align-items-center gap-4">
+              <span class="d-block galeri-line"></span>
+              <span class="d-block galeri-circle"></span>
+              <h1 style="color: #40c9a2">GALERI</h1>
+              <span class="d-block galeri-circle"></span>
+              <span class="d-block galeri-line"></span>
+            </div>
+            <div class="galeri-body">
+              <div class="galeri-body">
+                <div
+                  class="d-flex flex-column gap-1 p-5"
+                  style="background-color: white"
+                >
+                  <div class="row gap-1">
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-2.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-4.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-5.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="row gap-1">
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-6.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-7.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-8.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-9.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="row gap-1">
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-10.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/gallery-11.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/carousel-hero-1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <img
+                        class="img-persegipanjang"
+                        src="img/carousel-hero-2.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="row mt-4">
-              <div class="col galeri-image-wrapper">
-                <img class="galeri-image" src="img/gallery-6.jpg" alt="" />
-              </div>
-              <div class="col galeri-image-wrapper">
-                <img class="galeri-image" src="img/gallery-7.jpg" alt="" />
-              </div>
-              <div class="col galeri-image-wrapper">
-                <img class="galeri-image" src="img/gallery-8.jpg" alt="" />
-              </div>
-              <div class="col galeri-image-wrapper">
-                <img class="galeri-image" src="img/gallery-10.jpg" alt="" />
-              </div>
+            <div>
+              <p class="text-white fs-3 by">by: juliasta</p>
             </div>
           </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#1a1a1d"
+            fill-opacity="1"
+            d="M0,288L20,261.3C40,235,80,181,120,149.3C160,117,200,107,240,90.7C280,75,320,53,360,80C400,107,440,181,480,181.3C520,181,560,107,600,90.7C640,75,680,117,720,128C760,139,800,117,840,122.7C880,128,920,160,960,160C1000,160,1040,128,1080,112C1120,96,1160,96,1200,112C1240,128,1280,160,1320,160C1360,160,1400,128,1420,112L1440,96L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"
+          ></path>
+        </svg>
       </div>
       <!-- end galeri -->
 
@@ -506,140 +610,154 @@
       <!-- end contact us -->
 
       <!-- footer -->
-      <div class="container-fluid mt-5 footer">
-        <div class="container py-5">
-          <div class="footer-menu row gap-3 py-5 h-100">
-            <div class="col logo-footer h-100">
-              <div class="logo col d-flex align-items-center">
-                <a class="text-decoration-none logo-tegalalang-footer" href="#"
-                  ><h2 class="logo-tegalalang-footer">TEGALLALANG</h2>
-                  <span
-                    style="color: #40c9a2"
-                    class="rice-terace d-flex align-items-center gap-2"
-                    ><span
-                      class="line d-block ms-4"
-                      style="background-color: #40c9a2"
-                    ></span>
-                    Rice Terace</span
-                  ></a
-                >
+      <div class="container-fluid p-0">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#1a1a1d"
+            fill-opacity="1"
+            d="M0,32L20,80C40,128,80,224,120,250.7C160,277,200,235,240,224C280,213,320,235,360,234.7C400,235,440,213,480,202.7C520,192,560,192,600,202.7C640,213,680,235,720,240C760,245,800,235,840,234.7C880,235,920,245,960,229.3C1000,213,1040,171,1080,154.7C1120,139,1160,149,1200,144C1240,139,1280,117,1320,122.7C1360,128,1400,160,1420,176L1440,192L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+          ></path>
+        </svg>
+        <div class="footer">
+          <div class="container py-5 d-flex flex-column gap-5">
+            <div class="footer-menu row gap- py-5 h-100">
+              <div class="col logo-footer h-100">
+                <div class="logo col d-flex align-items-center">
+                  <a
+                    class="text-decoration-none logo-tegalalang-footer"
+                    href="#"
+                    ><h2 class="logo-tegalalang-footer">TEGALLALANG</h2>
+                    <span
+                      style="color: #40c9a2"
+                      class="rice-terace d-flex align-items-center gap-2"
+                      ><span
+                        class="line d-block ms-4"
+                        style="background-color: #40c9a2"
+                      ></span>
+                      Rice Terace</span
+                    ></a
+                  >
+                </div>
+              </div>
+              <div class="col">
+                <h3 class="footer-title text-white">Menu</h3>
+                <ul class="d-flex flex-column gap-1 p-0">
+                  <li class="nav-item">
+                    <a class="nav-link fs-6" aria-current="page" href="#"
+                      >Beranda</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-6" href="#paket-wisata"
+                      >Paket Wisata</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-6" href="#galeri">Galeri</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-6" href="#kontak-kami">Kontak Kami</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <h3 class="text-white">Tentang Kami</h3>
+                <p class="text-white">
+                  Tegalalang Rice Terrace di Ubud, ikon Bali dengan pemandangan
+                  sawah terasering yang menakjubkan dan sistem irigasi Subak,
+                  Warisan Dunia UNESCO. Udara sejuk, kehijauan sawah, dan budaya
+                  lokal menciptakan harmoni alam yang memukau. Tempat ini wajib
+                  dikunjungi untuk menikmati keindahan Bali.
+                </p>
+              </div>
+              <div class="col">
+                <h3 class="text-white">Kontak Kami</h3>
+                <ul class="d-flex flex-column gap- p-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link d-flex align-items-center gap-3 fs-6"
+                      href="#paket-wisata"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-envelope-at-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"
+                        />
+                        <path
+                          d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"
+                        />
+                      </svg>
+                      <span>riceteracetegal@gmai.com</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link d-flex align-items-center gap-3 fs-6"
+                      href="#galeri"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-telephone-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                        />
+                      </svg>
+                      <span>+62 85123413842</span></a
+                    >
+                  </li>
+                  <div class="kontak-kami-line d-block"></div>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link d-flex align-items-center gap-3 fs-6"
+                      href="https://maps.app.goo.gl/YxNuFt1PU747YFaz7"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-geo-alt-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
+                        />
+                      </svg>
+                      <span>Kec. Tegalalang, Gianyar</span>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="col">
-              <h3 class="footer-title text-white">Menu</h3>
-              <ul class="d-flex flex-column gap-1 p-0">
-                <li class="nav-item">
-                  <a class="nav-link fs-6" aria-current="page" href="#"
-                    >Beranda</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-6" href="#paket-wisata">Paket Wisata</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-6" href="#galeri">Galeri</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-6" href="#kontak-kami">Kontak Kami</a>
-                </li>
-              </ul>
+            <div class="footer-line"></div>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126301.23417500233!2d115.20659870159938!3d-8.410149654436022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd218a46438f143%3A0x4030bfbca7d2d40!2sKec.%20Tegallalang%2C%20Kabupaten%20Gianyar%2C%20Bali!5e0!3m2!1sid!2sid!4v1735187341464!5m2!1sid!2sid"
+                width="100%"
+                height="500"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-            <div class="col">
-              <h3 class="text-white">Tentang Kami</h3>
-              <p class="text-white">
-                Tegalalang Rice Terrace di Ubud, ikon Bali dengan pemandangan
-                sawah terasering yang menakjubkan dan sistem irigasi Subak,
-                Warisan Dunia UNESCO. Udara sejuk, kehijauan sawah, dan budaya
-                lokal menciptakan harmoni alam yang memukau. Tempat ini wajib
-                dikunjungi untuk menikmati keindahan Bali.
+            <div class="footer-line"></div>
+            <div class="footer-copyright">
+              <p class="text-center text-white">
+                &copy; 2021 Tegalalang Rice Terace. All Rights Reserved.
               </p>
             </div>
-            <div class="col">
-              <h3 class="text-white">Kontak Kami</h3>
-              <ul class="d-flex flex-column gap-1 p-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link d-flex align-items-center gap-3 fs-6"
-                    href="#paket-wisata"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-envelope-at-fill"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"
-                      />
-                      <path
-                        d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"
-                      />
-                    </svg>
-                    <span>riceteracetegal@gmai.com</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link d-flex align-items-center gap-3 fs-6"
-                    href="#galeri"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-telephone-fill"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
-                      />
-                    </svg>
-                    <span>+62 85123413842</span></a
-                  >
-                </li>
-                <div class="kontak-kami-line d-block"></div>
-                <li class="nav-item">
-                  <a
-                    class="nav-link d-flex align-items-center gap-3 fs-6"
-                    href="https://maps.app.goo.gl/YxNuFt1PU747YFaz7"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-geo-alt-fill"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
-                      />
-                    </svg>
-                    <span>Kec. Tegalalang, Gianyar</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126301.23417500233!2d115.20659870159938!3d-8.410149654436022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd218a46438f143%3A0x4030bfbca7d2d40!2sKec.%20Tegallalang%2C%20Kabupaten%20Gianyar%2C%20Bali!5e0!3m2!1sid!2sid!4v1735187341464!5m2!1sid!2sid"
-                    width="300"
-                    height="200"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="footer-line"></div>
-          <div class="footer-copyright my-4">
-            <p class="text-center text-white">
-              &copy; 2021 Tegalalang Rice Terace. All Rights Reserved.
-            </p>
           </div>
         </div>
       </div>
